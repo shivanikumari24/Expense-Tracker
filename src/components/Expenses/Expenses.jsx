@@ -8,7 +8,7 @@ import ExpensesChart from "./ExpensesChart";
 
 //stateless component
 export default function Expenses(props) {
-  const [filteredYear, setFilteredYear] = useState("2023");
+  const [filteredYear, setFilteredYear] = useState("2025");
   const filterExpenseHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
   };
